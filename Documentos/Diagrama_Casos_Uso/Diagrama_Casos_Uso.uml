@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_tVLogCTcEfCVZ_ZetEoAlg" name="Diagrama_Casos_Uso">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_tVkqECTcEfCVZ_ZetEoAlg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_us2mECTcEfCVZ_ZetEoAlg" name="Administrador"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_BXUhICTdEfCVZ_ZetEoAlg" name="Empleado"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_DBlDgCTdEfCVZ_ZetEoAlg" name="Cliente"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ESX9ACTdEfCVZ_ZetEoAlg" name="Visitante"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Q-H24CTdEfCVZ_ZetEoAlg" name="ModificarVehículo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_RO-WUCTdEfCVZ_ZetEoAlg" name="EliminarVehículo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Rcf08CTdEfCVZ_ZetEoAlg" name="GestionarMantenimiento"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aVTosCTdEfCVZ_ZetEoAlg" name="GestionarUsuarios"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_d7XwcCTdEfCVZ_ZetEoAlg" name="RegistrarVehículo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zFJmkCTdEfCVZ_ZetEoAlg" name="GestioinarAlquiler"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_1K5LECTdEfCVZ_ZetEoAlg" name="VerVehículosAlquilados"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Goki4CTeEfCVZ_ZetEoAlg" name="ConsultarVehículos"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KjRd4CTeEfCVZ_ZetEoAlg" name="FiltrarVehículosDisponibles"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_NrvqsCTeEfCVZ_ZetEoAlg" name="EnviarFormularioDeContacto"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_jMIqACTeEfCVZ_ZetEoAlg" name="VerClienteAsociado"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7Jg-QCTgEfCVZ_ZetEoAlg" memberEnd="_7JhlUiTgEfCVZ_ZetEoAlg _7JhlUyTgEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7JhlUCTgEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7JhlUSTgEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7JhlUiTgEfCVZ_ZetEoAlg" name="registrarvehículo" type="_d7XwcCTdEfCVZ_ZetEoAlg" association="_7Jg-QCTgEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7JhlUyTgEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="_7Jg-QCTgEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_89UeMCTgEfCVZ_ZetEoAlg" memberEnd="_89UeMyTgEfCVZ_ZetEoAlg _89UeNCTgEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_89UeMSTgEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_89UeMiTgEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_89UeMyTgEfCVZ_ZetEoAlg" name="modificarvehículo" type="_Q-H24CTdEfCVZ_ZetEoAlg" association="_89UeMCTgEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_89UeNCTgEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="_89UeMCTgEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__QNG0CTgEfCVZ_ZetEoAlg" memberEnd="__QNG0yTgEfCVZ_ZetEoAlg __QNG1CTgEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__QNG0STgEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__QNG0iTgEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__QNG0yTgEfCVZ_ZetEoAlg" name="gestionarusuarios" type="_aVTosCTdEfCVZ_ZetEoAlg" association="__QNG0CTgEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__QNG1CTgEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="__QNG0CTgEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EvrAMCThEfCVZ_ZetEoAlg" memberEnd="_EvrnQiThEfCVZ_ZetEoAlg _EvrnQyThEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EvrnQCThEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EvrnQSThEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EvrnQiThEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="_EvrAMCThEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EvrnQyThEfCVZ_ZetEoAlg" name="eliminarvehículo" type="_RO-WUCTdEfCVZ_ZetEoAlg" association="_EvrAMCThEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_H8bQECThEfCVZ_ZetEoAlg" memberEnd="_H8b3IiThEfCVZ_ZetEoAlg _H8b3IyThEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H8b3ICThEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H8b3ISThEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H8b3IiThEfCVZ_ZetEoAlg" name="gestioinaralquiler" type="_zFJmkCTdEfCVZ_ZetEoAlg" association="_H8bQECThEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_H8b3IyThEfCVZ_ZetEoAlg" name="empleado" type="_BXUhICTdEfCVZ_ZetEoAlg" association="_H8bQECThEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_IlxvECThEfCVZ_ZetEoAlg" memberEnd="_IlxvEyThEfCVZ_ZetEoAlg _IlxvFCThEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IlxvESThEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IlxvEiThEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IlxvEyThEfCVZ_ZetEoAlg" name="verclienteasociado" type="_jMIqACTeEfCVZ_ZetEoAlg" association="_IlxvECThEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IlxvFCThEfCVZ_ZetEoAlg" name="empleado" type="_BXUhICTdEfCVZ_ZetEoAlg" association="_IlxvECThEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JHSgsCThEfCVZ_ZetEoAlg" memberEnd="_JHSgsyThEfCVZ_ZetEoAlg _JHSgtCThEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JHSgsSThEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JHSgsiThEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JHSgsyThEfCVZ_ZetEoAlg" name="vervehículosalquilados" type="_1K5LECTdEfCVZ_ZetEoAlg" association="_JHSgsCThEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JHSgtCThEfCVZ_ZetEoAlg" name="empleado" type="_BXUhICTdEfCVZ_ZetEoAlg" association="_JHSgsCThEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WUuLUCThEfCVZ_ZetEoAlg" memberEnd="_WUuyYCThEfCVZ_ZetEoAlg _WUuyYSThEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WUuLUSThEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WUuLUiThEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WUuyYCThEfCVZ_ZetEoAlg" name="gestionarmantenimiento" type="_Rcf08CTdEfCVZ_ZetEoAlg" association="_WUuLUCThEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WUuyYSThEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="_WUuLUCThEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4Dek8CThEfCVZ_ZetEoAlg" memberEnd="_4Dek8yThEfCVZ_ZetEoAlg _4Dek9CThEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Dek8SThEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4Dek8iThEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4Dek8yThEfCVZ_ZetEoAlg" name="enviarformulariodecontacto" type="_NrvqsCTeEfCVZ_ZetEoAlg" association="_4Dek8CThEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4Dek9CThEfCVZ_ZetEoAlg" name="visitante" type="_ESX9ACTdEfCVZ_ZetEoAlg" association="_4Dek8CThEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6rnr4CThEfCVZ_ZetEoAlg" memberEnd="_6rnr4yThEfCVZ_ZetEoAlg _6roS8CThEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6rnr4SThEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6rnr4iThEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6rnr4yThEfCVZ_ZetEoAlg" name="consultarvehículos" type="_Goki4CTeEfCVZ_ZetEoAlg" association="_6rnr4CThEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6roS8CThEfCVZ_ZetEoAlg" name="cliente" type="_DBlDgCTdEfCVZ_ZetEoAlg" association="_6rnr4CThEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7YAQwCThEfCVZ_ZetEoAlg" memberEnd="_7YA30iThEfCVZ_ZetEoAlg _7YA30yThEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7YA30CThEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7YA30SThEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7YA30iThEfCVZ_ZetEoAlg" name="filtrarvehículosdisponibles" type="_KjRd4CTeEfCVZ_ZetEoAlg" association="_7YAQwCThEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7YA30yThEfCVZ_ZetEoAlg" name="cliente" type="_DBlDgCTdEfCVZ_ZetEoAlg" association="_7YAQwCThEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-A0tICThEfCVZ_ZetEoAlg" name="IniciarSesion"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-RxTMCThEfCVZ_ZetEoAlg" name="VerPerfil"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-kfa4CThEfCVZ_ZetEoAlg" name="CambiarContraseña"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-1u74CThEfCVZ_ZetEoAlg" name="CerrarSesion"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_I4WQUCTiEfCVZ_ZetEoAlg" memberEnd="_I4WQUyTiEfCVZ_ZetEoAlg _I4WQVCTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I4WQUSTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I4WQUiTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_I4WQUyTiEfCVZ_ZetEoAlg" name="iniciarsesion" type="_-A0tICThEfCVZ_ZetEoAlg" association="_I4WQUCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_I4WQVCTiEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="_I4WQUCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JmAAgCTiEfCVZ_ZetEoAlg" memberEnd="_JmAnkiTiEfCVZ_ZetEoAlg _JmAnkyTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JmAnkCTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JmAnkSTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JmAnkiTiEfCVZ_ZetEoAlg" name="verperfil" type="_-RxTMCThEfCVZ_ZetEoAlg" association="_JmAAgCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JmAnkyTiEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="_JmAAgCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Lp38wCTiEfCVZ_ZetEoAlg" memberEnd="_Lp4j0iTiEfCVZ_ZetEoAlg _Lp4j0yTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lp4j0CTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lp4j0STiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lp4j0iTiEfCVZ_ZetEoAlg" name="cambiarcontraseña" type="_-kfa4CThEfCVZ_ZetEoAlg" association="_Lp38wCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Lp4j0yTiEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="_Lp38wCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MXcNYCTiEfCVZ_ZetEoAlg" memberEnd="_MXcNYyTiEfCVZ_ZetEoAlg _MXc0cCTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MXcNYSTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MXcNYiTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MXcNYyTiEfCVZ_ZetEoAlg" name="cerrarsesion" type="_-1u74CThEfCVZ_ZetEoAlg" association="_MXcNYCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MXc0cCTiEfCVZ_ZetEoAlg" name="administrador" type="_us2mECTcEfCVZ_ZetEoAlg" association="_MXcNYCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PZm94CTiEfCVZ_ZetEoAlg" memberEnd="_PZnk8CTiEfCVZ_ZetEoAlg _PZnk8STiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PZm94STiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PZm94iTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PZnk8CTiEfCVZ_ZetEoAlg" name="iniciarsesion" type="_-A0tICThEfCVZ_ZetEoAlg" association="_PZm94CTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_PZnk8STiEfCVZ_ZetEoAlg" name="empleado" type="_BXUhICTdEfCVZ_ZetEoAlg" association="_PZm94CTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Q65xgCTiEfCVZ_ZetEoAlg" memberEnd="_Q65xgyTiEfCVZ_ZetEoAlg _Q65xhCTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q65xgSTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q65xgiTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q65xgyTiEfCVZ_ZetEoAlg" name="verperfil" type="_-RxTMCThEfCVZ_ZetEoAlg" association="_Q65xgCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Q65xhCTiEfCVZ_ZetEoAlg" name="empleado" type="_BXUhICTdEfCVZ_ZetEoAlg" association="_Q65xgCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_R1ZD0CTiEfCVZ_ZetEoAlg" memberEnd="_R1Zq4iTiEfCVZ_ZetEoAlg _R1Zq4yTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R1Zq4CTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R1Zq4STiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_R1Zq4iTiEfCVZ_ZetEoAlg" name="cambiarcontraseña" type="_-kfa4CThEfCVZ_ZetEoAlg" association="_R1ZD0CTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_R1Zq4yTiEfCVZ_ZetEoAlg" name="empleado" type="_BXUhICTdEfCVZ_ZetEoAlg" association="_R1ZD0CTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Sqff0CTiEfCVZ_ZetEoAlg" memberEnd="_SqgG4iTiEfCVZ_ZetEoAlg _SqgG4yTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SqgG4CTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SqgG4STiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SqgG4iTiEfCVZ_ZetEoAlg" name="cerrarsesion" type="_-1u74CThEfCVZ_ZetEoAlg" association="_Sqff0CTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SqgG4yTiEfCVZ_ZetEoAlg" name="empleado" type="_BXUhICTdEfCVZ_ZetEoAlg" association="_Sqff0CTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WkMVQCTiEfCVZ_ZetEoAlg" memberEnd="_WkM8UiTiEfCVZ_ZetEoAlg _WkM8UyTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WkM8UCTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WkM8USTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WkM8UiTiEfCVZ_ZetEoAlg" name="iniciarsesion" type="_-A0tICThEfCVZ_ZetEoAlg" association="_WkMVQCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WkM8UyTiEfCVZ_ZetEoAlg" name="cliente" type="_DBlDgCTdEfCVZ_ZetEoAlg" association="_WkMVQCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YCCMQCTiEfCVZ_ZetEoAlg" memberEnd="_YCCzUiTiEfCVZ_ZetEoAlg _YCCzUyTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YCCzUCTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YCCzUSTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YCCzUiTiEfCVZ_ZetEoAlg" name="verperfil" type="_-RxTMCThEfCVZ_ZetEoAlg" association="_YCCMQCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YCCzUyTiEfCVZ_ZetEoAlg" name="cliente" type="_DBlDgCTdEfCVZ_ZetEoAlg" association="_YCCMQCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ab-fICTiEfCVZ_ZetEoAlg" memberEnd="_ab_GMSTiEfCVZ_ZetEoAlg _ab_GMiTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ab-fISTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ab_GMCTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ab_GMSTiEfCVZ_ZetEoAlg" name="cambiarcontraseña" type="_-kfa4CThEfCVZ_ZetEoAlg" association="_ab-fICTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ab_GMiTiEfCVZ_ZetEoAlg" name="cliente" type="_DBlDgCTdEfCVZ_ZetEoAlg" association="_ab-fICTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bB_WQCTiEfCVZ_ZetEoAlg" memberEnd="_bB_9UiTiEfCVZ_ZetEoAlg _bB_9UyTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bB_9UCTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bB_9USTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bB_9UiTiEfCVZ_ZetEoAlg" name="cerrarsesion" type="_-1u74CThEfCVZ_ZetEoAlg" association="_bB_WQCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bB_9UyTiEfCVZ_ZetEoAlg" type="_DBlDgCTdEfCVZ_ZetEoAlg" association="_bB_WQCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_dmZMsCTiEfCVZ_ZetEoAlg" memberEnd="_dmZzwiTiEfCVZ_ZetEoAlg _dmZzwyTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dmZzwCTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dmZzwSTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dmZzwiTiEfCVZ_ZetEoAlg" name="iniciarsesion" type="_-A0tICThEfCVZ_ZetEoAlg" association="_dmZMsCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_dmZzwyTiEfCVZ_ZetEoAlg" name="visitante" type="_ESX9ACTdEfCVZ_ZetEoAlg" association="_dmZMsCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eL1cECTiEfCVZ_ZetEoAlg" memberEnd="_eL1cEyTiEfCVZ_ZetEoAlg _eL1cFCTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eL1cESTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eL1cEiTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eL1cEyTiEfCVZ_ZetEoAlg" name="verperfil" type="_-RxTMCThEfCVZ_ZetEoAlg" association="_eL1cECTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eL1cFCTiEfCVZ_ZetEoAlg" name="visitante" type="_ESX9ACTdEfCVZ_ZetEoAlg" association="_eL1cECTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_euhSYCTiEfCVZ_ZetEoAlg" memberEnd="_euhSYyTiEfCVZ_ZetEoAlg _euhSZCTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_euhSYSTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_euhSYiTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_euhSYyTiEfCVZ_ZetEoAlg" name="cambiarcontraseña" type="_-kfa4CThEfCVZ_ZetEoAlg" association="_euhSYCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_euhSZCTiEfCVZ_ZetEoAlg" type="_ESX9ACTdEfCVZ_ZetEoAlg" association="_euhSYCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_nUzLsCTiEfCVZ_ZetEoAlg" memberEnd="_nUzLsyTiEfCVZ_ZetEoAlg _nUzLtCTiEfCVZ_ZetEoAlg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nUzLsSTiEfCVZ_ZetEoAlg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nUzLsiTiEfCVZ_ZetEoAlg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nUzLsyTiEfCVZ_ZetEoAlg" name="cerrarsesion" type="_-1u74CThEfCVZ_ZetEoAlg" association="_nUzLsCTiEfCVZ_ZetEoAlg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_nUzLtCTiEfCVZ_ZetEoAlg" name="visitante" type="_ESX9ACTdEfCVZ_ZetEoAlg" association="_nUzLsCTiEfCVZ_ZetEoAlg"/>
+  </packagedElement>
+</uml:Model>
