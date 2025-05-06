@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-BNj4CphEfCJkPCVsWYNcw" name="Diagrama_Secuencias">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_-BjiICphEfCJkPCVsWYNcw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_-BQnMCphEfCJkPCVsWYNcw" name="IniciarSesion">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_-yRNYCphEfCJkPCVsWYNcw" name="Cliente" coveredBy="_G-x70CpiEfCJkPCVsWYNcw _G_r6wCpiEfCJkPCVsWYNcw _Gb0YsCpiEfCJkPCVsWYNcw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Eoy74CpiEfCJkPCVsWYNcw" name="Cliente GUI" coveredBy="_G-x70SpiEfCJkPCVsWYNcw _G_rTsSpiEfCJkPCVsWYNcw _G_npUCpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G-x70CpiEfCJkPCVsWYNcw" name="Message6SendEvent" covered="_-yRNYCphEfCJkPCVsWYNcw" message="_G-u4gCpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Gb0YsCpiEfCJkPCVsWYNcw" name="ActionExecutionSpecification3" covered="_-yRNYCphEfCJkPCVsWYNcw" finish="_G_r6wCpiEfCJkPCVsWYNcw" start="_G-x70CpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G-x70SpiEfCJkPCVsWYNcw" name="Message6ReceiveEvent" covered="_Eoy74CpiEfCJkPCVsWYNcw" message="_G-u4gCpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_G_npUCpiEfCJkPCVsWYNcw" name="BehaviorExecutionSpecification8" covered="_Eoy74CpiEfCJkPCVsWYNcw" finish="_G_rTsSpiEfCJkPCVsWYNcw" start="_G-x70SpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G_rTsSpiEfCJkPCVsWYNcw" name="Message10SendEvent" covered="_Eoy74CpiEfCJkPCVsWYNcw" message="_G_rTsCpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_G_r6wCpiEfCJkPCVsWYNcw" name="Message10ReceiveEvent" covered="_-yRNYCphEfCJkPCVsWYNcw" message="_G_rTsCpiEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_G-u4gCpiEfCJkPCVsWYNcw" name="IniciarSesion" receiveEvent="_G-x70SpiEfCJkPCVsWYNcw" sendEvent="_G-x70CpiEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_G_rTsCpiEfCJkPCVsWYNcw" name="ValidarCredenciales" messageSort="reply" receiveEvent="_G_r6wCpiEfCJkPCVsWYNcw" sendEvent="_G_rTsSpiEfCJkPCVsWYNcw"/>
+  </packagedElement>
+</uml:Model>

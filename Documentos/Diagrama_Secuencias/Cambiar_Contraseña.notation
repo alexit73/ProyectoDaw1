@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_pZWSkCpiEfCJkPCVsWYNcw" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_pZWSkSpiEfCJkPCVsWYNcw" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pZWSkipiEfCJkPCVsWYNcw" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_pZWSkypiEfCJkPCVsWYNcw" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_RvqPACpjEfCJkPCVsWYNcw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_RvqPAipjEfCJkPCVsWYNcw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_kiATsCpjEfCJkPCVsWYNcw" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Cambiar_Contraseña.uml#_kh93cCpjEfCJkPCVsWYNcw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kiATsSpjEfCJkPCVsWYNcw" x="40" y="46" width="20" height="100"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Cambiar_Contraseña.uml#_RvoZ0CpjEfCJkPCVsWYNcw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RvqPASpjEfCJkPCVsWYNcw" x="74" y="10"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_cEfU0CpjEfCJkPCVsWYNcw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cEfU0ipjEfCJkPCVsWYNcw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_lDBWESpjEfCJkPCVsWYNcw" type="BehaviorExecutionSpecification_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_lDBWEypjEfCJkPCVsWYNcw" type="BehaviorExecutionSpecification_Behavior">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lDBWFCpjEfCJkPCVsWYNcw" x="18" y="18"/>
+          </children>
+          <element xmi:type="uml:BehaviorExecutionSpecification" href="Cambiar_Contraseña.uml#_lDAvACpjEfCJkPCVsWYNcw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lDBWEipjEfCJkPCVsWYNcw" x="40" y="46" width="20" height="100"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Cambiar_Contraseña.uml#_cEc4kCpjEfCJkPCVsWYNcw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cEfU0SpjEfCJkPCVsWYNcw" x="314" y="10"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZWSlCpiEfCJkPCVsWYNcw"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="Cambiar_Contraseña.uml#_pZVrgCpiEfCJkPCVsWYNcw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pZWSlSpiEfCJkPCVsWYNcw"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_pZWSlipiEfCJkPCVsWYNcw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_pZWSlypiEfCJkPCVsWYNcw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_pZWSmCpiEfCJkPCVsWYNcw" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+    <owner xmi:type="uml:Model" href="Cambiar_Contraseña.uml#_pZQL8CpiEfCJkPCVsWYNcw"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="Cambiar_Contraseña.uml#_pZVrgCpiEfCJkPCVsWYNcw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_lC1I0CpjEfCJkPCVsWYNcw" type="Message_SynchEdge" source="_RvqPACpjEfCJkPCVsWYNcw" target="_cEfU0CpjEfCJkPCVsWYNcw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lC1v4CpjEfCJkPCVsWYNcw" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lC1v4SpjEfCJkPCVsWYNcw" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lC1v4ipjEfCJkPCVsWYNcw" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lC1v4ypjEfCJkPCVsWYNcw" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lC1I0SpjEfCJkPCVsWYNcw"/>
+    <element xmi:type="uml:Message" href="Cambiar_Contraseña.uml#_lCntcCpjEfCJkPCVsWYNcw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lC1I0ipjEfCJkPCVsWYNcw" points="[-10, -6, -250, 0]$[240, -6, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lC9EoCpjEfCJkPCVsWYNcw" id="(0.5,0.06571428571428571)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lC9EoSpjEfCJkPCVsWYNcw" id="(0.5,0.06571428571428571)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lDEZYCpjEfCJkPCVsWYNcw" type="Message_ReplyEdge" source="_cEfU0CpjEfCJkPCVsWYNcw" target="_RvqPACpjEfCJkPCVsWYNcw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lDEZYypjEfCJkPCVsWYNcw" type="Message_ReplyNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lDEZZCpjEfCJkPCVsWYNcw" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lDEZZSpjEfCJkPCVsWYNcw" type="Message_ReplyStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lDEZZipjEfCJkPCVsWYNcw" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lDEZYSpjEfCJkPCVsWYNcw"/>
+    <element xmi:type="uml:Message" href="Cambiar_Contraseña.uml#_lDCkMCpjEfCJkPCVsWYNcw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lDEZYipjEfCJkPCVsWYNcw" points="[0, 0, 240, 0]$[-250, 0, -10, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lDGOkCpjEfCJkPCVsWYNcw" id="(0.5,0.20857142857142857)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lDGOkSpjEfCJkPCVsWYNcw" id="(0.5,0.20857142857142857)"/>
+  </edges>
+</notation:Diagram>

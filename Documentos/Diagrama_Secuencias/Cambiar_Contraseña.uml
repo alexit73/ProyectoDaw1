@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_pZQL8CpiEfCJkPCVsWYNcw" name="Diagrama_Secuencias">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_pZutECpiEfCJkPCVsWYNcw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_pZVrgCpiEfCJkPCVsWYNcw" name="CambiarContraseña">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_RvoZ0CpjEfCJkPCVsWYNcw" name="Cliente" coveredBy="_lCoUgCpjEfCJkPCVsWYNcw _lDCkMipjEfCJkPCVsWYNcw _kh93cCpjEfCJkPCVsWYNcw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_cEc4kCpjEfCJkPCVsWYNcw" name="Cliente GUI" coveredBy="_lCoUgSpjEfCJkPCVsWYNcw _lDCkMSpjEfCJkPCVsWYNcw _lDAvACpjEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lCoUgCpjEfCJkPCVsWYNcw" name="Message6SendEvent" covered="_RvoZ0CpjEfCJkPCVsWYNcw" message="_lCntcCpjEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_kh93cCpjEfCJkPCVsWYNcw" name="ActionExecutionSpecification3" covered="_RvoZ0CpjEfCJkPCVsWYNcw" finish="_lDCkMipjEfCJkPCVsWYNcw" start="_lCoUgCpjEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lCoUgSpjEfCJkPCVsWYNcw" name="Message6ReceiveEvent" covered="_cEc4kCpjEfCJkPCVsWYNcw" message="_lCntcCpjEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_lDAvACpjEfCJkPCVsWYNcw" name="BehaviorExecutionSpecification8" covered="_cEc4kCpjEfCJkPCVsWYNcw" finish="_lDCkMSpjEfCJkPCVsWYNcw" start="_lCoUgSpjEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lDCkMSpjEfCJkPCVsWYNcw" name="Message10SendEvent" covered="_cEc4kCpjEfCJkPCVsWYNcw" message="_lDCkMCpjEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lDCkMipjEfCJkPCVsWYNcw" name="Message10ReceiveEvent" covered="_RvoZ0CpjEfCJkPCVsWYNcw" message="_lDCkMCpjEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_lCntcCpjEfCJkPCVsWYNcw" name="CambiarContraseña" receiveEvent="_lCoUgSpjEfCJkPCVsWYNcw" sendEvent="_lCoUgCpjEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_lDCkMCpjEfCJkPCVsWYNcw" name="VerificarContraseña" messageSort="reply" receiveEvent="_lDCkMipjEfCJkPCVsWYNcw" sendEvent="_lDCkMSpjEfCJkPCVsWYNcw"/>
+  </packagedElement>
+</uml:Model>

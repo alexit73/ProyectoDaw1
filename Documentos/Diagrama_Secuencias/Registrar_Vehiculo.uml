@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vnkS4CpjEfCJkPCVsWYNcw" name="Registrar_Vehiculo">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_voPoUCpjEfCJkPCVsWYNcw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_vnsOsCpjEfCJkPCVsWYNcw" name="RegistrarVehiculo">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_6JTzUCpjEfCJkPCVsWYNcw" name="Empleado" coveredBy="_CCMbICpkEfCJkPCVsWYNcw _CCc50SpkEfCJkPCVsWYNcw _BlqQICpkEfCJkPCVsWYNcw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_72XyECpjEfCJkPCVsWYNcw" name="Vehiculo" coveredBy="_CCMbISpkEfCJkPCVsWYNcw _CCc50CpkEfCJkPCVsWYNcw _CCbEoCpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CCMbICpkEfCJkPCVsWYNcw" name="Message6SendEvent" covered="_6JTzUCpjEfCJkPCVsWYNcw" message="_CCL0ECpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_BlqQICpkEfCJkPCVsWYNcw" name="ActionExecutionSpecification3" covered="_6JTzUCpjEfCJkPCVsWYNcw" finish="_CCc50SpkEfCJkPCVsWYNcw" start="_CCMbICpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CCMbISpkEfCJkPCVsWYNcw" name="Message6ReceiveEvent" covered="_72XyECpjEfCJkPCVsWYNcw" message="_CCL0ECpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_CCbEoCpkEfCJkPCVsWYNcw" name="BehaviorExecutionSpecification8" covered="_72XyECpjEfCJkPCVsWYNcw" finish="_CCc50CpkEfCJkPCVsWYNcw" start="_CCMbISpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CCc50CpkEfCJkPCVsWYNcw" name="Message10SendEvent" covered="_72XyECpjEfCJkPCVsWYNcw" message="_CCcSwCpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CCc50SpkEfCJkPCVsWYNcw" name="Message10ReceiveEvent" covered="_6JTzUCpjEfCJkPCVsWYNcw" message="_CCcSwCpkEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_CCL0ECpkEfCJkPCVsWYNcw" name="Registrar" receiveEvent="_CCMbISpkEfCJkPCVsWYNcw" sendEvent="_CCMbICpkEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_CCcSwCpkEfCJkPCVsWYNcw" name="GuardarVehiculo" messageSort="reply" receiveEvent="_CCc50SpkEfCJkPCVsWYNcw" sendEvent="_CCc50CpkEfCJkPCVsWYNcw"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_UFIuECpiEfCJkPCVsWYNcw" name="Diagrama_Secuencias">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_UFc3ICpiEfCJkPCVsWYNcw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_UFM_gCpiEfCJkPCVsWYNcw" name="CerrarSesion">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_a-6pUCpiEfCJkPCVsWYNcw" name="Cliente" coveredBy="_j9FeMCpiEfCJkPCVsWYNcw _j9ZnQSpiEfCJkPCVsWYNcw _gpHMACpiEfCJkPCVsWYNcw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_dSX5sCpiEfCJkPCVsWYNcw" name="Cliente GUI" coveredBy="_j9FeMSpiEfCJkPCVsWYNcw _j9ZnQCpiEfCJkPCVsWYNcw _j9XyECpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_j9FeMCpiEfCJkPCVsWYNcw" name="Message6SendEvent" covered="_a-6pUCpiEfCJkPCVsWYNcw" message="_j9E3ICpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_gpHMACpiEfCJkPCVsWYNcw" name="ActionExecutionSpecification3" covered="_a-6pUCpiEfCJkPCVsWYNcw" finish="_j9ZnQSpiEfCJkPCVsWYNcw" start="_j9FeMCpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_j9FeMSpiEfCJkPCVsWYNcw" name="Message6ReceiveEvent" covered="_dSX5sCpiEfCJkPCVsWYNcw" message="_j9E3ICpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_j9XyECpiEfCJkPCVsWYNcw" name="BehaviorExecutionSpecification8" covered="_dSX5sCpiEfCJkPCVsWYNcw" finish="_j9ZnQCpiEfCJkPCVsWYNcw" start="_j9FeMSpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_j9ZnQCpiEfCJkPCVsWYNcw" name="Message10SendEvent" covered="_dSX5sCpiEfCJkPCVsWYNcw" message="_j9ZAMCpiEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_j9ZnQSpiEfCJkPCVsWYNcw" name="Message10ReceiveEvent" covered="_a-6pUCpiEfCJkPCVsWYNcw" message="_j9ZAMCpiEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_j9E3ICpiEfCJkPCVsWYNcw" name="CerrarSesion" receiveEvent="_j9FeMSpiEfCJkPCVsWYNcw" sendEvent="_j9FeMCpiEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_j9ZAMCpiEfCJkPCVsWYNcw" name="SesionCerrada" messageSort="reply" receiveEvent="_j9ZnQSpiEfCJkPCVsWYNcw" sendEvent="_j9ZnQCpiEfCJkPCVsWYNcw"/>
+  </packagedElement>
+</uml:Model>

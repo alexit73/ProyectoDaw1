@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_arWiMCpkEfCJkPCVsWYNcw" name="Modificar_Vehiculo">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_ar8_ICpkEfCJkPCVsWYNcw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_argTMCpkEfCJkPCVsWYNcw" name="Modificar_Vehiculo">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_jaif4CpkEfCJkPCVsWYNcw" name="Empleado" coveredBy="_n97LgCpkEfCJkPCVsWYNcw _n-TmACpkEfCJkPCVsWYNcw _nZQYMCpkEfCJkPCVsWYNcw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_kRYoUCpkEfCJkPCVsWYNcw" name="Vehiculo" coveredBy="_n97LgSpkEfCJkPCVsWYNcw _n-S-8SpkEfCJkPCVsWYNcw _n-Rw0CpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_n97LgCpkEfCJkPCVsWYNcw" name="Message6SendEvent" covered="_jaif4CpkEfCJkPCVsWYNcw" message="_n96kcCpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_nZQYMCpkEfCJkPCVsWYNcw" name="ActionExecutionSpecification3" covered="_jaif4CpkEfCJkPCVsWYNcw" finish="_n-TmACpkEfCJkPCVsWYNcw" start="_n97LgCpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_n97LgSpkEfCJkPCVsWYNcw" name="Message6ReceiveEvent" covered="_kRYoUCpkEfCJkPCVsWYNcw" message="_n96kcCpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_n-Rw0CpkEfCJkPCVsWYNcw" name="BehaviorExecutionSpecification8" covered="_kRYoUCpkEfCJkPCVsWYNcw" finish="_n-S-8SpkEfCJkPCVsWYNcw" start="_n97LgSpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_n-S-8SpkEfCJkPCVsWYNcw" name="Message10SendEvent" covered="_kRYoUCpkEfCJkPCVsWYNcw" message="_n-S-8CpkEfCJkPCVsWYNcw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_n-TmACpkEfCJkPCVsWYNcw" name="Message10ReceiveEvent" covered="_jaif4CpkEfCJkPCVsWYNcw" message="_n-S-8CpkEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_n96kcCpkEfCJkPCVsWYNcw" name="Modificar" receiveEvent="_n97LgSpkEfCJkPCVsWYNcw" sendEvent="_n97LgCpkEfCJkPCVsWYNcw"/>
+    <message xmi:type="uml:Message" xmi:id="_n-S-8CpkEfCJkPCVsWYNcw" name="AplicarCambios" messageSort="reply" receiveEvent="_n-TmACpkEfCJkPCVsWYNcw" sendEvent="_n-S-8SpkEfCJkPCVsWYNcw"/>
+  </packagedElement>
+</uml:Model>

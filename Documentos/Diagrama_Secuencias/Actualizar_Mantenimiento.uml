@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HaUL0CpjEfCrDY2vUDhlLw" name="model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Hba_ECpjEfCrDY2vUDhlLw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_HafyACpjEfCrDY2vUDhlLw" name="Interaction1">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_oHySICpkEfCrDY2vUDhlLw" name="Empleado" coveredBy="_tEFNACpkEfCrDY2vUDhlLw _tEEl8CpkEfCrDY2vUDhlLw _uLQ3gSpkEfCrDY2vUDhlLw _vlQJQSpkEfCrDY2vUDhlLw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_p9tR8CpkEfCrDY2vUDhlLw" name="Mantenimiento" coveredBy="_uLQ3gipkEfCrDY2vUDhlLw _vlQJQCpkEfCrDY2vUDhlLw _tmjA4CpkEfCrDY2vUDhlLw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_tEFNACpkEfCrDY2vUDhlLw" name="ActionExecutionSpecification3Start" covered="_oHySICpkEfCrDY2vUDhlLw" execution="_tEEl8CpkEfCrDY2vUDhlLw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_tEEl8CpkEfCrDY2vUDhlLw" name="ActionExecutionSpecification3" covered="_oHySICpkEfCrDY2vUDhlLw" finish="_uLQ3gSpkEfCrDY2vUDhlLw" start="_tEFNACpkEfCrDY2vUDhlLw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uLQ3gSpkEfCrDY2vUDhlLw" name="Message9SendEvent" covered="_oHySICpkEfCrDY2vUDhlLw" message="_uLQ3gCpkEfCrDY2vUDhlLw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uLQ3gipkEfCrDY2vUDhlLw" name="Message9ReceiveEvent" covered="_p9tR8CpkEfCrDY2vUDhlLw" message="_uLQ3gCpkEfCrDY2vUDhlLw"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_tmjA4CpkEfCrDY2vUDhlLw" name="ActionExecutionSpecification6" covered="_p9tR8CpkEfCrDY2vUDhlLw" finish="_vlQJQCpkEfCrDY2vUDhlLw" start="_uLQ3gipkEfCrDY2vUDhlLw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vlQJQCpkEfCrDY2vUDhlLw" name="Message10SendEvent" covered="_p9tR8CpkEfCrDY2vUDhlLw" message="_vlPiMCpkEfCrDY2vUDhlLw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vlQJQSpkEfCrDY2vUDhlLw" name="Message10ReceiveEvent" covered="_oHySICpkEfCrDY2vUDhlLw" message="_vlPiMCpkEfCrDY2vUDhlLw"/>
+    <message xmi:type="uml:Message" xmi:id="_uLQ3gCpkEfCrDY2vUDhlLw" name="Actualizar(info)" receiveEvent="_uLQ3gipkEfCrDY2vUDhlLw" sendEvent="_uLQ3gSpkEfCrDY2vUDhlLw"/>
+    <message xmi:type="uml:Message" xmi:id="_vlPiMCpkEfCrDY2vUDhlLw" name="Actualizado" messageSort="reply" receiveEvent="_vlQJQSpkEfCrDY2vUDhlLw" sendEvent="_vlQJQCpkEfCrDY2vUDhlLw"/>
+  </packagedElement>
+</uml:Model>

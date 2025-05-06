@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HaiOQCpjEfCrDY2vUDhlLw" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_HaiOQSpjEfCrDY2vUDhlLw" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HaiOQipjEfCrDY2vUDhlLw" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HaiOQypjEfCrDY2vUDhlLw" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_oH0HUCpkEfCrDY2vUDhlLw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_oH0HUipkEfCrDY2vUDhlLw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_tEHCMCpkEfCrDY2vUDhlLw" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Actualizar_Mantenimiento.uml#_tEEl8CpkEfCrDY2vUDhlLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tEHCMSpkEfCrDY2vUDhlLw" x="40" y="26" width="20" height="100"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Actualizar_Mantenimiento.uml#_oHySICpkEfCrDY2vUDhlLw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oH0HUSpkEfCrDY2vUDhlLw" x="74" y="10"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_p9vuMCpkEfCrDY2vUDhlLw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_p9vuMipkEfCrDY2vUDhlLw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_tmmrQCpkEfCrDY2vUDhlLw" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="Actualizar_Mantenimiento.uml#_tmjA4CpkEfCrDY2vUDhlLw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tmmrQSpkEfCrDY2vUDhlLw" x="40" y="126" width="20" height="100"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="Actualizar_Mantenimiento.uml#_p9tR8CpkEfCrDY2vUDhlLw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p9vuMSpkEfCrDY2vUDhlLw" x="374" y="10"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HaiORCpjEfCrDY2vUDhlLw"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="Actualizar_Mantenimiento.uml#_HafyACpjEfCrDY2vUDhlLw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HaiORSpjEfCrDY2vUDhlLw"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_HaiORipjEfCrDY2vUDhlLw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_HaiORypjEfCrDY2vUDhlLw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_HaiOSCpjEfCrDY2vUDhlLw" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+    <owner xmi:type="uml:Model" href="Actualizar_Mantenimiento.uml#_HaUL0CpjEfCrDY2vUDhlLw"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="Actualizar_Mantenimiento.uml#_HafyACpjEfCrDY2vUDhlLw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_uLoD4CpkEfCrDY2vUDhlLw" type="Message_SynchEdge" source="_oH0HUCpkEfCrDY2vUDhlLw" target="_p9vuMCpkEfCrDY2vUDhlLw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uLoD4ypkEfCrDY2vUDhlLw" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uLoD5CpkEfCrDY2vUDhlLw" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uLoD5SpkEfCrDY2vUDhlLw" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uLoD5ipkEfCrDY2vUDhlLw" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uLoD4SpkEfCrDY2vUDhlLw"/>
+    <element xmi:type="uml:Message" href="Actualizar_Mantenimiento.uml#_uLQ3gCpkEfCrDY2vUDhlLw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uLoD4ipkEfCrDY2vUDhlLw" points="[-10, 2, -310, -80]$[290, 82, -10, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uL0RICpkEfCrDY2vUDhlLw" id="(0.5,0.18)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uL0RISpkEfCrDY2vUDhlLw" id="(0.5,0.18)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_vlW28CpkEfCrDY2vUDhlLw" type="Message_ReplyEdge" source="_p9vuMCpkEfCrDY2vUDhlLw" target="_oH0HUCpkEfCrDY2vUDhlLw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_vlW28ypkEfCrDY2vUDhlLw" type="Message_ReplyNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vlW29CpkEfCrDY2vUDhlLw" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vlW29SpkEfCrDY2vUDhlLw" type="Message_ReplyStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vlW29ipkEfCrDY2vUDhlLw" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_vlW28SpkEfCrDY2vUDhlLw"/>
+    <element xmi:type="uml:Message" href="Actualizar_Mantenimiento.uml#_vlPiMCpkEfCrDY2vUDhlLw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vlW28ipkEfCrDY2vUDhlLw" points="[-10, 0, 290, 0]$[-300, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vlkSUCpkEfCrDY2vUDhlLw" id="(0.5,0.32285714285714284)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vlkSUSpkEfCrDY2vUDhlLw" id="(0.5,0.32285714285714284)"/>
+  </edges>
+</notation:Diagram>
